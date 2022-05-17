@@ -1,0 +1,5 @@
+2022-05-16 18:55:14,422 - 7656 - ADBHoneypot - INFO - Configuration loaded with ['output_log', 'output_json'] as output plugins
+2022-05-16 18:55:14,424 - 7656 - ADBHoneypot - INFO - Listening on 0.0.0.0:5555.
+2022-05-16 18:55:36,957 - 7656 - ADBHoneypot - INFO - Received a connection, creating an ADBConnection.
+2022-05-16 18:55:36,995 - 7656 - ADBHoneypot - INFO - 127.0.0.1 connection start (94fd8274b54e)
+2022-05-16 18:55:36,996 - 7656 - ADBHoneypot - INFO - {'username': '', 'protocol': '', 'session': '94fd8274b54e', 'time_stamp': 1652698536, 'message': '', 'password': '', 'event': 'adbhoney.session.connect', 'src_port': 54300, 'service': 'adb', 'system': '', 'src_ip': '127.0.0.1', 'command': '', 'dst_port': 5555, 'dst_ip': '192.168.2.240'}

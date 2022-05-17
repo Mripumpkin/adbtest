@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  honeypot:
+    build: .
+    container_name: adbhoney_3.4_android
+    imgae: adbhoney_3.4:android
+    expose:
+      - "5555"
+    volumes:
+      - ./logs:/ADBHoney/logs
+      - ./dl:/ADBHoney/dl
+      - ./adbhoney.cfg:/etc/adbhoney.cfg
